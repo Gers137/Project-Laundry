@@ -48,12 +48,41 @@ margin: auto;
     padding: 2px;
 }
 .main-nav ul li a:hover{
-    border-bottom: 2px solid #262626 ;
+    border-bottom: 2px solid #262626;
+    color: blue;
+
+}
+.main-nav ul li a.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #d9fce7;
+  font-weight: normal;
+  font-weight: 600;
+  color: blue;
+}
+.main-nav ul li a.btn:hover {
+  background-color: blue;
+  color: #fff;
 }
 .main-nav ul.main-menu{
     flex: 1;
     margin-left: 20px;
 }
+.main-nav ul.right-menu {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #d9fce7;
+  font-weight: normal;
+  font-weight: 600;
+  color: #a0a0a0;
+}
+.main-nav ul.right-menu:hover {
+  background-color: #a0a0a0;
+  color: #fff;
+}
+
+
 .menu-btn{
     cursor: pointer;
     position: absolute;
@@ -102,6 +131,13 @@ margin: auto;
 
   .showcase .btn{
       margin-top:20px ;
+      background-color: #d9fce7;
+      color: blue;
+      padding: 10px 20px;
+      border-radius: 5px;
+      background-color: #d9fce7;
+      font-weight: normal;
+      font-weight: 600;
   }
 
   /* Home cards */
